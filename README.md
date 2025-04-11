@@ -1,12 +1,49 @@
-Over 10 years of experience as a Business/Data Analyst and developer, with expertise in SQL, PL/SQL, Python, Java, C, C++, JavaScript, Shell Scripting (Linux/Unix), VBA, and MS Excel. Proficient in building ETL data pipelines, performing data mining, developing visualizations, and delivering actionable insights on both cloud and on-premise platforms. Hands-on experience in creating interactive dashboards and reports using leading Business Intelligence tools. Possess foundational knowledge in predictive analytics. Proven track record of working across diverse industries including software, telecommunications, startups, financial services (insurance), and the energy sector (oil and gas).      
+# 👋 Hi, I'm Mohammad Zakirul Islam Khan
 
-SKILLS  
-Programming: SQL, PL/SQL, Python, Linux/Unix Shell Scripting   
-ETL & Data Warehousing: Informatica, SSIS, Data Warehouse Design & Development     
-Databases: Oracle, Teradata, MS SQL Server, MySQL   
-Data Analysis & Visualization: Power BI, Tableau, MicroStrategy, Microsoft Excel, Matplotlib, Google Analytics   
-Statistical & Predictive Modeling: Regression, Clustering, Decision Trees, Random Forest    
-Tools & Platforms: Toad, SQL Developer, GitHub, Jira, Agile (Scrum)    
-Soft Skills: Strong verbal and written communication, data-driven decision-making, customer-centric mindset, fast-paced adaptability, analytical thinking    
+🎯 A highly experienced **Data Analyst & Business Analyst** with over a decade of hands-on experience turning complex data into actionable insights.
 
- 
+---
+
+## 🔍 About Me
+
+I specialize in:
+
+- 📊 **Data Analysis & Visualization**  
+  Using tools like **Excel**, **Power BI**, **Tableau**, and **Matplotlib**
+
+- 🧠 **Predictive Analytics & Statistical Modeling**  
+  Regression, Clustering, Decision Trees, Random Forests
+
+- 🛠️ **Technical Expertise**  
+  SQL, PL/SQL, Python, VBA, Shell Scripting, ETL Pipelines
+
+- 🗄️ **Databases & Warehousing**  
+  Oracle, Teradata, MS SQL Server, MySQL, SSIS, Informatica
+
+- 🧬 **Soft Skills**  
+  Strong communication, stakeholder collaboration, fast-paced adaptability, and critical thinking
+
+---
+
+## 🧩 Featured Portfolio Project
+
+### 🔧 [Price Change Notification System (PCN)](https://github.com/data-analyst-portfolio-web/PCN)
+
+> Automates fuel pricing for 100+ commercial locations across Western Canada.
+
+📌 Built in Excel + VBA  
+💰 Handles rack price changes, taxes, customer markups, and site logic  
+📈 Outputs ready-to-send customer pricing notifications  
+🔁 Includes automated import macros for daily processing
+
+---
+
+## 📬 Let's Connect
+
+- 🌍 [LinkedIn](https://www.linkedin.com/in/mzik)
+- 📧 zakirul.islam973@gmail.com  
+- 🌐 [GitHub Portfolio](https://github.com/data-analyst-portfolio-web)
+
+---
+
+⭐ Thank you for visiting my portfolio! Feel free to explore, connect, or collaborate.
