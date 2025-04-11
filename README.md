@@ -1,6 +1,10 @@
 # 👋 Hi, I'm Mohammad Zakirul Islam Khan
 
-🎯 A highly experienced Data and Business Analyst with over a decade of hands-on expertise in transforming complex data into actionable insights. Proven track record of helping businesses convert raw data into strategic, data-driven decisions.
+🎯 A seasoned Data & Business Analyst with over a decade of experience across telecom, insurance, and energy sectors, specializing in transforming raw data into strategic, data-driven decisions.
+
+Proven ability to lead data migration, dashboard development, and analytics automation using tools like Power BI, SQL, Python, Excel, and Azure Data Services.
+
+Adept at bridging business needs with technical solutions, optimizing BI systems, and delivering actionable insights through advanced reporting and predictive modeling
 
 ---
 
