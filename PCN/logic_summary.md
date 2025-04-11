@@ -5,7 +5,43 @@ This document explains the key logic and formula structures behind the Excel-bas
 
 ---
 
-## 1. Base Price Calculation Logic
+
+## 1. Base Price Calculation Logic (Updated)
+
+This formula determines the base rack price depending on the **site ID** (location) and **product type**:
+
+```excel
+=IF(
+  OR(A28=521400, A28=529519, A28=519378, A28=519382, A28=519380, A28=519357, A28=549727, A28=519373, A28=519370, A28=519371, A28=519377, A28=519387, A28=521176, A28=521177, A28=524588),
+  IF(
+    OR(D28="BIODIESEL", D28="BIODIESEL DYED", D28="DIESEL LS", D28="D LS DYED"),
+    kdrk,
+    IF(
+      OR(D28="ETHANOL REG", D28="REGULAR", D28="REG DYED", D28="ETH REG DYE"),
+      krrk,
+      IF(D28="UNBRAND DEF", DEFbase, kprk)
+    )
+  ),
+  IF(
+    A28=519355,
+    IF(
+      OR(D28="BIODIESEL", D28="BIODIESEL DYED", D28="DIESEL LS", D28="D LS DYED"),
+      vdrk,
+      IF(
+        OR(D28="ETHANOL REG", D28="REGULAR", D28="REG DYED", D28="ETH REG DYE"),
+        vrrk,
+        ""
+      )
+    ),
+    E28
+  )
+)
+```
+
+**Site Groups:** Kamloops-related and Vanderhoof (519355)  
+**Product Groups:** Diesel, Gasoline (Regular, Mid), DEF  
+**Fallback:** Uses E28 if no conditions are met.
+
 
 **Inputs:**
 - `Rack Price` by city (Kamloops, Calgary, etc.)
@@ -35,7 +71,51 @@ This document explains the key logic and formula structures behind the Excel-bas
 
 ---
 
-## 3. Group Pricing Logic
+
+## 3. Group Pricing Logic (Updated - C1 Group Example)
+
+Sheets like `C1 Group`, `C2 Group`, etc., reference group-specific markup tiers calculated in the `Input Data` sheet.
+
+**Pricing Formula:**
+```
+Final Price = Net Price + Freight + Markup + Taxes
+```
+
+**C1 Group Example Formula:**
+```excel
+=IF(
+  OR(D28="BIODIESEL", D28="BIODIESEL DYED", D28="DIESEL LS", D28="D LS DYED"),
+  _dsl1 + N28,
+  IF(D28="ETHANOL REG", _ereg1 + N28,
+    IF(D28="REGULAR", _reg1 + N28,
+      IF(D28="PREM DYED", _puld1 + N28,
+        IF(D28="PREMIUM", _punl1 + N28,
+          IF(D28="REG DYED", _unld1 + N28,
+            IF(D28="ETH REG DYE", _unld1 + N28,
+              IF(D28="ETH MID", _mid1 + N28,
+                IF(D28="MID", _mid1 + N28,
+                  IF(D28="UNBRAND DEF", _def1 + N28)
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)
++
+IF(
+  OR(A28=521400, A28=529519, A28=519378, A28=519382, A28=519380, A28=519357, A28=549727, A28=519373, A28=519370, A28=519371, A28=519377, A28=519387, A28=521176, A28=521177, A28=524588),
+  AE28,
+  IOL
+)
+```
+
+- `_dsl1, _ereg1, _reg1`, etc.: Group-specific markups  
+- `N28`: Net price (typically base price)  
+- `AE28 / IOL`: Freight component depending on site
+
 
 Sheets like `C1 Group`, `C2 Group`, etc., reference group-specific markup tiers calculated in the `Input Data` sheet.
 
