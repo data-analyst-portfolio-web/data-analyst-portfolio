@@ -6,10 +6,10 @@ This document explains the key logic and formula structures behind the Excel-bas
 
 ## 1. Base Price Calculation Logic
 
+This ensures that the correct base rack price is applied based on both the location (site ID) to distinguish pricing regions (Kamloops vs Vancouver) and the product type, which determines the applicable rack rate.
+
 **Inputs:**
 - `Rack Price` by city (Kamloops, Calgary, etc.)
-- `Freight & Facility` charges (site-specific)
-- `Markup` per customer group (C0–C5)
 
 **Example Formula:**
 
@@ -44,6 +44,43 @@ This document explains the key logic and formula structures behind the Excel-bas
 ```
 
 ---
+
+🧠 What It Does:
+This formula determines the base rack price based on:
+
+Location (Site ID) → A28
+
+Fuel Product Type → D28
+
+🧾 Step-by-Step Logic:
+If the Site ID (A28) matches a known list of locations (e.g., 521400, 519380, etc.):
+
+Use Kamloops pricing logic:
+
+If the product is diesel-type (e.g., "BIODIESEL", "DIESEL LS"), use kdrk
+
+If the product is gasoline-type (e.g., "REGULAR", "ETHANOL REG"), use krrk
+
+If the product is "UNBRAND DEF", use DEFbase
+
+If none match, use kprk as default
+
+Else if the Site ID = 519355 (Vancouver-specific logic):
+
+Use Vancouver pricing:
+
+Diesel-type → vdrk
+
+Gasoline-type → vrrk
+
+Else, return empty ("")
+
+Else (site is not matched):
+
+Return the value in E28 as fallback (likely manual entry or default base price)
+
+---
+
 
 ## 2. Group Pricing Logic (C1–C5)
 
