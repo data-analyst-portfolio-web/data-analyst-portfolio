@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Mohammad Zakirul Islam Khan
 
-🎯 A highly experienced **Data Analyst & Business Analyst** with over a decade of hands-on experience turning complex data into actionable insights.
+🎯 A highly experienced **Data Analyst & Business Analyst** with over a decade of hands-on experience turning complex data into actionable insights. Helping businesses turn raw data into strategic insights.
 
 ---
 
