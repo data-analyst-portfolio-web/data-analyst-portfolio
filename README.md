@@ -27,7 +27,7 @@ I specialize in:
 
 ## 🧩 Featured Portfolio Project
 
-### 🔧 [Price Change Notification System (PCN)](https://github.com/data-analyst-portfolio-web/PCN)
+### 🔧 [Price Change Notification System (PCN)](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/PCN)
 
 > Automates fuel pricing for 100+ commercial locations across Western Canada.
 
