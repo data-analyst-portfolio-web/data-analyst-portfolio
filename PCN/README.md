@@ -1,6 +1,6 @@
 # 📈 Price Change Notification System (Excel Automation)
 
-This project automates the generation of customer daily price notifications (PCNs) for a oil and gas company using Microsoft Excel with embedded logic, macros, and customer-tiered pricing.
+This project automates the generation of daily Price Change Notifications (PCNs) for an oil and gas company using Microsoft Excel. It features embedded business logic, VBA macros, and a robust customer-tiered pricing structure to dynamically calculate fuel prices across multiple locations and customer groups. The system integrates real-time rack pricing, freight and facility charges, tax rules, and markups to produce ready-to-distribute pricing updates with minimal manual input.
 
 ## 💼 Project Overview
 - Automatically computes price/liter per fuel type
