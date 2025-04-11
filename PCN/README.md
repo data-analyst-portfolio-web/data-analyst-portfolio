@@ -24,7 +24,6 @@ This project automates the generation of daily Price Change Notifications (PCNs)
 - `PCN Effective Apr 11, 2025.xlsm`: Main Excel Workbook file with all logic
 - `logic_summary.md`: Markdown breakdown of formulas and logic
 - `macro_code.vba`: Full macro automation script
-- `images/`: Screenshots of the workbook
 
 ## 👨‍💼 Author
 **Mohammad Zakirul Islam Khan**  
