@@ -1,6 +1,6 @@
 # 📈 Price Change Notification System (Excel Automation)
 
-This project automates the generation of daily price notifications (PCNs) for Cool Creek Energy using Microsoft Excel with embedded logic, macros, and customer-tiered pricing.
+This project automates the generation of customer daily price notifications (PCNs) for a oil and gas company using Microsoft Excel with embedded logic, macros, and customer-tiered pricing.
 
 ## 💼 Project Overview
 - Automatically computes price/liter per fuel type
