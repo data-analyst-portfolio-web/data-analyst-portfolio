@@ -1,4 +1,3 @@
-
 # 🧠 Logic Summary - Price Change Notification System
 
 This document explains the key logic and formula structures behind the Excel-based PCN (Price Change Notification) system used by Cool Creek Energy.
@@ -90,4 +89,56 @@ IF(
 ### ✅ Final Group Net Price:
 ```
 Final Price = Base Price + Freight/Facility (N28) + Group Markup (_xxx1) + Tax/PST/GST (AE28 or IOL)
+```
+
+
+---
+
+## 3. Freight & Facility Charge Logic
+
+Calculates location-specific freight and facility fees based on site ID and product.
+
+```excel
+=IF(
+   AND(A28<>521400,A28<>529519,A28<>519378,A28<>519382,A28<>519380,A28<>519357,
+       A28<>521399,A28<>519373,A28<>519370,A28<>519371,A28<>519377,A28<>519387,
+       A28<>521176,A28<>521177,A28<>519355,A28<>524588),
+   0,
+   IF(D28="UNBRAND DEF", 0, HLOOKUP(A28, FrtFac, 2, FALSE))
+)
+```
+
+---
+
+## 4. GST/HST Tax Calculation Logic
+
+This formula applies conditional GST/HST rules for UNBRAND DEF products and uses lookup for others.
+
+```excel
+=IF(
+   AND(C28="BC", D28="unbrand def"), 0.12,
+   IF(AND(C28="SK", D28="unbrand def"), 0.11,
+   IF(AND(C28="MB", D28="unbrand def"), 0.13,
+   VLOOKUP(C28, TAXTABLE, 2, FALSE)))
+)
+```
+
+---
+
+## 5. PST/QST Tax Lookup Logic
+
+Province-specific PST or QST tax lookup.
+
+```excel
+=VLOOKUP(C28, TAXTABLE, 3, FALSE)
+```
+
+---
+
+## 6. Address Lookup Logic
+
+Fetches the customer location’s full address using the site number.
+
+```excel
+=VLOOKUP(A28, EFS_SITE, 4, FALSE)
 ```
