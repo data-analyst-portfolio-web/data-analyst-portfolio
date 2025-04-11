@@ -21,7 +21,7 @@ This project automates the generation of daily price notifications (PCNs) for Co
 4. Export or distribute updated PCNs
 
 ## 📂 Files Included
-- `Cool Creek Energy Ltd PCN Effective Apr 11, 2025.xlsm`: Main Excel file with all logic
+- `Cool Creek Energy Ltd PCN Effective Apr 11, 2025.xlsm`: Main Excel Workbook file with all logic
 - `logic_summary.md`: Markdown breakdown of formulas and logic
 - `macro_code.vba`: Full macro automation script
 - `images/`: Screenshots of the workbook
