@@ -12,7 +12,7 @@ This project automates the generation of daily Price Change Notifications (PCNs)
 - Tax automation by province (GST, PST, QST)
 - Freight & Facility lookup by site number
 - Group-based markups
-- Address lookup and EFS integration
+- Address lookup for location
 
 ## 🔁 Daily Workflow
 1. Paste RCP CSV into `RCP Input`
