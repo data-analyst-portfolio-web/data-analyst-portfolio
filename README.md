@@ -1,3 +1,9 @@
+> ⚠️ **Notice**  
+> This is a _read-only_ portfolio repository intended for viewing purposes only.  
+> Please **do not request changes** or create pull requests. Feel free to fork or explore the content.
+
+
+
 # 👋 Hi, I'm Mohammad Zakirul Islam Khan
 
 🎯 A seasoned Data & Business Analyst with over a decade of experience across telecom, insurance, and energy sectors, specializing in transforming raw data into strategic, data-driven decisions.
