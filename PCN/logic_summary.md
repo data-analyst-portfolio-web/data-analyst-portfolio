@@ -179,3 +179,69 @@ Fetches the customer location’s full address using the site number.
 ```excel
 =VLOOKUP(A28, EFS_SITE, 4, FALSE)
 ```
+
+
+---
+
+## 7. VBA Macro Explanations
+
+### 🟢 RCPSORT()
+
+**Purpose:**  
+Cleans and formats raw CSV data from the `RCP Input` sheet by trimming spaces and copying clean data into usable columns.
+
+**What it does:**
+- Identifies the last row in the raw data column (AE).
+- Applies the `TRIM` function to remove extra spaces.
+- Copies and pastes cleaned values into column B (used for pricing).
+
+```vba
+Sub RCPSORT()
+    Dim wsInputData As Worksheet
+    Dim wsRCPInput As Worksheet
+    Dim lastRow As Long
+
+    Set wsRCPInput = ThisWorkbook.Sheets("RCP Input")
+    Set wsInputData = ThisWorkbook.Sheets("Input Data")
+
+    lastRow = wsRCPInput.Cells(wsRCPInput.Rows.Count, "AE").End(xlUp).Row
+
+    With wsRCPInput
+        .Range("AE27:AE" & lastRow).FormulaR1C1 = "=TRIM(RC[-29])"
+        .Range("AF27:AF" & lastRow).FormulaR1C1 = "=TRIM(RC[-29])"
+        .Range("AG27:AG" & lastRow).FormulaR1C1 = "=TRIM(RC[-29])"
+        .Range("AE27:AG" & lastRow).Copy
+        .Range("B27").PasteSpecial Paste:=xlPasteValues
+        Application.CutCopyMode = False
+    End With
+
+    wsInputData.Activate
+End Sub
+```
+
+---
+
+### 🟡 Import()
+
+**Purpose:**  
+Transfers cleaned RCP data from the input sheet to the main `Input Data` sheet for final processing.
+
+**What it does:**
+- Clears existing values in `Input Data` sheet.
+- Pastes in the latest cleaned values from the `RCP Input` sheet.
+
+```vba
+Sub Import()
+    Dim wsRCPInput As Worksheet
+    Dim wsInputData As Worksheet
+
+    Set wsRCPInput = ThisWorkbook.Sheets("RCP Input")
+    Set wsInputData = ThisWorkbook.Sheets("Input Data")
+
+    wsInputData.Range("A26:J786").ClearContents
+    wsRCPInput.Range("A26:J786").Copy
+    wsInputData.Range("A26:J786").PasteSpecial Paste:=xlPasteValues
+    Application.CutCopyMode = False
+End Sub
+```
+
