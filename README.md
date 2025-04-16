@@ -52,7 +52,7 @@ I specialize in:
 
 - 🌍 [LinkedIn](https://www.linkedin.com/in/mzik)
 - 📧 zakirul.islam973@gmail.com  
-- 🌐 [GitHub Portfolio](https://github.com/data-analyst-portfolio-web)
+- 🌐 [GitHub Portfolio](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio)
 
 ---
 
