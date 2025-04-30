@@ -56,7 +56,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ![Delivered Summary](images/delivered_summary.png)
 
-📥 [Download Delivered Report](reports/Delivered_Report_2025.xlsx)
+📥 [Download Delivered Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Delivered_Report_2025.xlsx)
 
 ---
 
@@ -64,7 +64,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ![Lube Summary](images/lube_summary.png)
 
-📥 [Lube Report](reports/Lube_Report_2025.xlsx)
+📥 [Lube Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Lube_Report_2025.xlsx)
 
 ---
 
@@ -72,7 +72,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ![Purchase Summary](images/purchase_summary.png)
 
-📥 [Download Purchase Report](reports/Purchase_Report_2025.xlsx)
+📥 [Download Purchase Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Purchase_Report_2025.xlsx)
 
 ---
 
