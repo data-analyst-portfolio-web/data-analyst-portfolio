@@ -25,6 +25,12 @@ This project automates the generation of daily Price Change Notifications (PCNs)
 - `logic_summary.md`: Markdown breakdown of formulas and logic
 - `macro_code.vba`: Full macro automation script
 
+## 🧾 Sample Reports & Screenshots
+
+### 📘 PCN
+
+![Input Sheet](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+
 ## 👨‍💼 Author
 **Mohammad Zakirul Islam Khan**  
 📍 Vancouver, BC  
