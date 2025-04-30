@@ -54,7 +54,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 🛢️ Delivered Summary Overview
 
-![Delivered Summary](images/delivered_summary.png)
+![Delivered Summary](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Delivered%20Summary.PNG)
 
 📥 [Download Delivered Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Delivered_Report_2025.xlsx)
 
@@ -62,7 +62,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 🧴 Lube Analysis Summary
 
-![Lube Summary](images/lube_summary.png)
+![Lube Summary](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Lube%20Summary.PNG)
 
 📥 [Download Lube Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Lube_Report_2025.xlsx)
 
@@ -70,7 +70,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 📦 Purchase Transactions Trend
 
-![Purchase Summary](images/purchase_summary.png)
+![Purchase Summary](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Purchase%20Summary.PNG)
 
 📥 [Download Purchase Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Purchase_Report_2025.xlsx)
 
@@ -78,14 +78,14 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 👥 Customer Analysis (Cardlock & Delivered)
 
-![Customer CL Analysis](images/customer_cl.png)
-![Customer Delivered Analysis](images/customer_delivered.png)
+![Customer CL Analysis](ttps://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Customer%20CL%20Analysis.PNG)
+![Customer Delivered Analysis](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Customer%20Delivered%20Analysis.PNG)
 
 ---
 
 ### 💡 Pricing Tier Distribution
 
-![Pricing Distribution](images/pricing_distribution.png)
+![Pricing Distribution](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Pricing%20Distribution.PNG)
 
 ---
 
