@@ -44,16 +44,16 @@ I specialize in:
 📌 Built in Excel + VBA  
 💰 Handles rack price changes, taxes, customer markups, and site logic  
 📈 Outputs ready-to-send customer pricing notifications  
-🔁 Includes automated import macros for daily processing
+🔁 Includes automated import macros for daily processing 
 
 ### 📈 [Automated ERP-Based Monthly Transactional Reporting](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting)
 
 > Processes and reports monthly transactions for Cardlock, Delivered, Lube, and Purchase data from ERP exports.
 
-🐍 Built with Python scripts for ETL and summarization
-🧮 Collects and processes 25+ ERP-generated files monthly via SFTP
-📁 Organizes, cleanses, and merges billing data for customer-level analysis
-📊 Delivers consolidated Excel reports with visuals for performance tracking
+🐍 Built with Python scripts for ETL and summarization 
+🧮 Collects and processes 25+ ERP-generated files monthly via SFTP 
+📁 Organizes, cleanses, and merges billing data for customer-level analysis 
+📊 Delivers consolidated Excel reports with visuals for performance tracking 
 
 ---
 
