@@ -50,10 +50,10 @@ I specialize in:
 
 > Processes and reports monthly transactions for Cardlock, Delivered, Lube, and Purchase data from ERP exports.
 
-🐍 Built with Python scripts for ETL and summarization 
-🧮 Collects and processes 25+ ERP-generated files monthly via SFTP 
-📁 Organizes, cleanses, and merges billing data for customer-level analysis 
-📊 Delivers consolidated Excel reports with visuals for performance tracking 
+🐍 Built with Python scripts for ETL and summarization   
+🧮 Collects and processes 25+ ERP-generated files monthly via SFTP    
+📁 Organizes, cleanses, and merges billing data for customer-level analysis     
+📊 Delivers consolidated Excel reports with visuals for performance tracking     
 
 ---
 
