@@ -1,57 +1,114 @@
-# 🧾 Monthly Fuel & Lube Transaction Reporting System
+# 📊 Monthly Operations Reporting & Analysis System
 
-## Project Overview
+This project automates the generation, transformation, and analysis of monthly operations data—including Cardlock (CL), Delivered, Lube, and Purchase modules. It supports high-level summaries and detailed customer-level insights using Python-based ETL scripts, integrated Excel analytics, and automated SFTP data ingestion.
 
-This project automates the monthly generation of transaction-level and customer-level reports for Cardlock, Delivered, Lube, and Purchase modules. It is used by an oil and gas company to track and analyze product movements and purchasing trends using ERP-extracted data.
+---
 
-## Data Collection
+## 🔍 Project Objectives
 
-- **Source:** ERP system (via SFTP every 3rd of each month)
-- **Files:** ~25 raw Excel files per month, categorized by transaction type
-- **Raw Data Folder Structure:**
-  ```
-  \Reports\Monthly\Raw\CL
-  \Reports\Monthly\Raw\Delivered
-  \Reports\Monthly\Raw\Lube
-  \Reports\Monthly\Raw\Purchase
-  ```
+- Automate monthly collection and processing of raw billing data from ERP
+- Generate yearly transaction logs for each module
+- Produce monthly and YTD reports for management review
+- Analyze trends by site, product, and customer
+- Provide insights into pricing structure and profitability
 
-## Processing Workflow
+---
 
-1. **Raw Data Ingestion**
-   - Files are sorted into designated folders
-   - Naming convention follows YYYYMM pattern
+## 🧠 Process Overview
 
-2. **Transformation Scripts**
-   - **Cardlock:** `Assigned.py`, `Unassigned.py`, `External.py`
-   - **Delivered:** `Delivered.py`
-   - **Lube:** `Lube.py`
-   - **Purchase:** `Purchase.py`
-   - These merge or append records to year-based Excel files
+1. **Data Collection**
+   - Monthly billing data is exported from ERP as Excel files
+   - 25 files are collected on the 3rd day of each month via SFTP
+   - Files are organized in:
+     ```
+     /Reports/Monthly/Raw/CL
+     /Reports/Monthly/Raw/Delivered
+     /Reports/Monthly/Raw/Lube
+     /Reports/Monthly/Raw/Purchase
+     ```
 
-3. **Summary Generation**
-   - **Cardlock Summary:** `CL_Unassign_summ.py`, `CL_Assigned_summ.py`, `CL_External_summ.py`
-   - **Delivered:** `Delivered_summ.py`
-   - **Lube:** `Lube_summ.py`
-   - **Purchase:** `Purchase_summ.py`
+2. **ETL with Python**
+   - Scripts used:
+     - `Unassigned.py`, `Assigned.py`, `External.py` (Cardlock)
+     - `Delivered.py`, `Lube.py`, `Purchase.py`
+   - Consolidates monthly data into yearly master files per category
 
-4. **Customer-Level Analytics**
-   - Advanced metrics including profit, volume trends, and transaction counts
-   - Customer-focused scripts: `Delivered_summ_cust.py`, `Lube_summ_cust.py`, customer CSVs for CL
+3. **Summarization**
+   - Summary scripts:
+     - `CL_Unassign_summ.py`, `CL_Assigned_summ.py`, `CL_External_summ.py`
+     - `Delivered_summ.py`, `Lube_summ.py`, `Purchase_summ.py`
+   - Customer-level breakdowns:
+     - `Delivered_summ_cust.py`, `Lube_summ_cust.py`
 
-## Output
+---
 
-- Annual merged datasets for each module
-- Monthly trend dashboards with:
-  - Volume
-  - Sales
-  - Profit
-  - Transaction count
-- Customer summary & distribution reports by pricing bucket
+## 🧾 Sample Reports & Screenshots
 
-## Technologies Used
+### 📘 CL Summary Report
 
-- Python (Pandas, OpenPyXL)
-- Excel PivotTables & Charts
-- SFTP data retrieval
-- ERP integration
+![CL Summary Report](images/cl_summary.png)
+
+📥 [Download Full CL Report](reports/CL_Report_2025.xlsx)
+
+---
+
+### 🛢️ Delivered Summary Overview
+
+![Delivered Summary](images/delivered_summary.png)
+
+📥 [Download Delivered Report](reports/Delivered_Report_2025.xlsx)
+
+---
+
+### 🧴 Lube Analysis Summary
+
+![Lube Summary](images/lube_summary.png)
+
+📥 [Lube Report](reports/Lube_Report_2025.xlsx)
+
+---
+
+### 📦 Purchase Transactions Trend
+
+![Purchase Summary](images/purchase_summary.png)
+
+📥 [Download Purchase Report](reports/Purchase_Report_2025.xlsx)
+
+---
+
+### 👥 Customer Analysis (Cardlock & Delivered)
+
+![Customer CL Analysis](images/customer_cl.png)
+![Customer Delivered Analysis](images/customer_delivered.png)
+
+---
+
+### 💡 Pricing Tier Distribution
+
+![Pricing Distribution](images/pricing_distribution.png)
+
+---
+
+## 📂 Folder Structure
+
+```
+monthly-ops-reports/
+├── scripts/
+│   ├── Assigned.py
+│   ├── Delivered.py
+│   └── ...
+├── reports/
+│   └── *.xlsx
+├── images/
+│   └── *.png
+└── README.md
+```
+
+---
+
+## 👨‍💼 Author
+
+**Mohammad Zakirul Islam Khan**  
+Business Analyst | Data Engineer  
+📍 Vancouver, BC, Canada  
+🔗 [LinkedIn](https://www.linkedin.com/in/mzik) | ✉️ zakirul.islam973@gmail.com
