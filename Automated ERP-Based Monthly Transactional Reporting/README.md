@@ -78,7 +78,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 👥 Customer Analysis (Cardlock & Delivered)
 
-![Customer CL Analysis](ttps://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Customer%20CL%20Analysis.PNG)
+![Customer CL Analysis](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Customer%20CL%20Analysis.PNG)
 ![Customer Delivered Analysis](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/Customer%20Delivered%20Analysis.PNG)
 
 ---
