@@ -48,7 +48,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ![CL Summary Report](images/cl_summary.png)
 
-📥 [Download Full CL Report](reports/CL_Report_2025.xlsx)
+📥 [Download Full CL Report] (Automated ERP-Based Monthly Transactional Reporting/Reports/CL_Report_2025.xlsx)
 
 ---
 
