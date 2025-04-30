@@ -62,9 +62,9 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 🧴 Lube Analysis Summary
 
-![Download Lube Summary](images/lube_summary.png)
+![Lube Summary](images/lube_summary.png)
 
-📥 [Lube Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Lube_Report_2025.xlsx)
+📥 [Download Lube Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/Lube_Report_2025.xlsx)
 
 ---
 
