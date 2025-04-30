@@ -46,6 +46,15 @@ I specialize in:
 📈 Outputs ready-to-send customer pricing notifications  
 🔁 Includes automated import macros for daily processing
 
+### 📈 [Automated ERP-Based Monthly Transactional Reporting]()
+
+> Processes and reports monthly transactions for Cardlock, Delivered, Lube, and Purchase data from ERP exports.
+
+🐍 Built with Python scripts for ETL and summarization
+🧮 Collects and processes 25+ ERP-generated files monthly via SFTP
+📁 Organizes, cleanses, and merges billing data for customer-level analysis
+📊 Delivers consolidated Excel reports with visuals for performance tracking
+
 ---
 
 ## 📬 Let's Connect
