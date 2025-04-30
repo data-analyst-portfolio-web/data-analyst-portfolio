@@ -27,9 +27,9 @@ This project automates the generation of daily Price Change Notifications (PCNs)
 
 ## 🧾 Sample Reports & Screenshots
 
-### 📘 PCN
-
 ![Input Sheet](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/PCN/Images/PCN.PNG)
+![RCP Input](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/PCN/Images/RCP%20Input.PNG)
+![C1](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/PCN/Images/C1.PNG)
 
 ## 👨‍💼 Author
 **Mohammad Zakirul Islam Khan**  
