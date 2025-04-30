@@ -46,7 +46,7 @@ I specialize in:
 📈 Outputs ready-to-send customer pricing notifications  
 🔁 Includes automated import macros for daily processing
 
-### 📈 [Automated ERP-Based Monthly Transactional Reporting]()
+### 📈 [Automated ERP-Based Monthly Transactional Reporting](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting)
 
 > Processes and reports monthly transactions for Cardlock, Delivered, Lube, and Purchase data from ERP exports.
 
