@@ -92,7 +92,18 @@ This project automates the generation, transformation, and analysis of monthly o
 ## 📂 Folder Structure
 
 ```
-project/
+
+Project/
+├── Images/
+│   ├── CL_Unassign_summ_cust.csv
+│   ├── CL_External_summ_cust.csv
+│   ├── Delivered_summ_cust.py
+│   └── Lube_summ_cust.py
+├── Reports/
+│   ├── CL_Report_2025.xlsx
+│   ├── Delivered_Report_2025.xlsx
+│   ├── Lube_Report_2025.xlsx
+│   └── Purchase_Report_2025.xlsx
 ├── data/
 │   ├── raw/
 │   │   ├── CL/
