@@ -92,15 +92,35 @@ This project automates the generation, transformation, and analysis of monthly o
 ## 📂 Folder Structure
 
 ```
-monthly-ops-reports/
+project/
+├── data/
+│   ├── raw/
+│   │   ├── CL/
+│   │   ├── Delivered/
+│   │   ├── Lube/
+│   │   └── Purchase/
 ├── scripts/
-│   ├── Assigned.py
-│   ├── Delivered.py
-│   └── ...
-├── reports/
-│   └── *.xlsx
-├── images/
-│   └── *.png
+│   ├── Cardlock/
+│   │   ├── Assigned.py
+│   │   ├── Unassigned.py
+│   │   ├── External.py
+│   │   ├── CL_Assigned_summ.py
+│   │   ├── CL_Unassign_summ.py
+│   │   └── CL_External_summ.py
+│   ├── Delivered/
+│   │   ├── Delivered.py
+│   │   └── Delivered_summ.py
+│   ├── Lube/
+│   │   ├── Lube.py
+│   │   └── Lube_summ.py
+│   └── Purchase/
+│       ├── Purchase.py
+│       └── Purchase_summ.py
+├── customer_analysis/
+│   ├── CL_Unassign_summ_cust.csv
+│   ├── CL_External_summ_cust.csv
+│   ├── Delivered_summ_cust.py
+│   └── Lube_summ_cust.py
 └── README.md
 ```
 
