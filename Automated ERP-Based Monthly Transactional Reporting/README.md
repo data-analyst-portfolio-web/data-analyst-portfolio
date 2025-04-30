@@ -46,7 +46,7 @@ This project automates the generation, transformation, and analysis of monthly o
 
 ### 📘 CL Summary Report
 
-![CL Summary Report](images/cl_summary.png)
+![CL Summary Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
 
 📥 [Download Full CL Report](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Reports/CL_Report_2025.xlsx)
 
