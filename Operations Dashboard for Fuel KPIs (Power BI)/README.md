@@ -135,19 +135,19 @@ These measures and visuals collectively allow stakeholders to monitor fuel opera
 
 ### 📘 Summary of Dashboard
 
-![Summary of Dashboard](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+![Summary of Dashboard](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI)/Images/overview_dashboard.png)
 
 ### 📘 Tank Monitoring
 
-![Tank Monitoring](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+![Tank Monitoring](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI)/Images/tank_monitoring.png)
 
 ### 📘 Delivery Performance
 
-![Delivery Performance](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+![Delivery Performance](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI)/Images/delivery_performance.png)
 
 ### 📘 Truck Efficiency
 
-![Truck Efficiency](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+![Truck Efficiency](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI)/Images/truck_efficiency.png)
 
 
 ## 👨‍💼 Author
