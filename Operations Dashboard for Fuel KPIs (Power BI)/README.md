@@ -54,7 +54,7 @@ Fuel delivery operations often suffer from inefficiencies including untracked id
 ## 👨‍💼 Author
 
 **Mohammad Zakirul Islam Khan**  
-📍 Vancouver, BC  
+📍 Vancouver, BC, Canada  
 📧 zakirul.islam973@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/mzik)  
 [GitHub](https://github.com/data-analyst-portfolio-web)
