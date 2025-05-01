@@ -129,6 +129,26 @@ DIVIDE(SUM(truck_routes[Idle_Minutes]), SUM(truck_routes[Idle_Minutes] + truck_r
 
 These measures and visuals collectively allow stakeholders to monitor fuel operations, reduce inefficiencies, and take action based on real-time insights.
 
+---
+
+## 🧾 Sample Dashboard & Screenshots
+
+### 📘 Summary of Dashboard
+
+![Summary of Dashboard](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+
+### 📘 Tank Monitoring
+
+![Tank Monitoring](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+
+### 📘 Delivery Performance
+
+![Delivery Performance](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+
+### 📘 Truck Efficiency
+
+![Truck Efficiency](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/blob/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting/Images/CL%20Summary%20Report.PNG)
+
 
 ## 👨‍💼 Author
 
