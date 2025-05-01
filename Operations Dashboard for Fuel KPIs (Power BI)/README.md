@@ -51,6 +51,85 @@ Fuel delivery operations often suffer from inefficiencies including untracked id
 
 ---
 
+## 📐 Power BI Layout & DAX Measures
+
+This dashboard is organized across four key pages, each serving a unique aspect of fuel delivery operations.
+
+---
+
+### 📄 Overview Page
+**Filters**: Date, Region, Product, Customer Type  
+**Visuals**:
+- Line chart: Monthly Delivery Trend
+- Bar chart: Volume by Region
+- KPIs: Total Deliveries, On-Time %, Late Deliveries
+
+#### Sample DAX:
+```DAX
+Total Deliveries = COUNT(delivery_summary[Delivery_ID])
+
+On-Time Delivery % = 
+DIVIDE(
+    CALCULATE(COUNT(delivery_summary[Delivery_ID]), delivery_summary[Status] = "On Time"),
+    [Total Deliveries]
+)
+```
+
+---
+
+### 🛢️ Tank Monitoring Page
+**Filters**: Tank, Region, Fuel Type  
+**Visuals**:
+- Gauge: Tank Fill Level
+- Bar Chart: Refill Frequency
+- Table: Tank Logs
+
+#### Sample DAX:
+```DAX
+Fill % = 
+DIVIDE(
+    tank_fill_logs[Volume_Filled_Liters], 
+    RELATED(tank_metadata[Max_Capacity_Liters])
+) * 100
+```
+
+---
+
+### 🚚 Delivery Performance Page
+**Filters**: Driver, Date, Customer Type  
+**Visuals**:
+- Card: Avg. Delivery Volume
+- Table: Delivery Logs
+- KPI: Exceptions, Delay %
+
+#### Sample DAX:
+```DAX
+Average Delivery Volume = 
+AVERAGE(delivery_summary[Volume_Liters])
+```
+
+---
+
+### 🔧 Truck Efficiency Page
+**Filters**: Truck ID, Region, Fuel Type  
+**Visuals**:
+- Cards: Distance Traveled, Fuel Used, Efficiency
+- Bar Chart: Idle Time %
+
+#### Sample DAX:
+```DAX
+Avg. Fuel Efficiency = 
+DIVIDE(SUM(truck_routes[Distance_KM]), SUM(truck_routes[Fuel_Used_Liters]))
+
+Idle Time % = 
+DIVIDE(SUM(truck_routes[Idle_Minutes]), SUM(truck_routes[Idle_Minutes] + truck_routes[Driving_Minutes]))
+```
+
+---
+
+These measures and visuals collectively allow stakeholders to monitor fuel operations, reduce inefficiencies, and take action based on real-time insights.
+
+
 ## 👨‍💼 Author
 
 **Mohammad Zakirul Islam Khan**  
