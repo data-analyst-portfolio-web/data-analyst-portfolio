@@ -55,7 +55,7 @@ I specialize in:
 📁 Organizes, cleanses, and merges billing data for customer-level analysis     
 📊 Delivers consolidated Excel reports with visuals for performance tracking     
 
-### 📈 [Operations Dashboard for Fuel KPIs](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/Automated%20ERP-Based%20Monthly%20Transactional%20Reporting)
+### 📈 [Operations Dashboard for Fuel KPIs](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI))
 
 > Visualizes fuel logistics performance using Power BI dashboards for real-time operational insights.
 
