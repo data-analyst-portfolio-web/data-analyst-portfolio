@@ -51,9 +51,12 @@ Fuel delivery operations often suffer from inefficiencies including untracked id
 
 ---
 
+## 📂 Folder Structure
+
+```
 Fuel_KPI_Dashboard/
-├── README.md               
-├── images/                      
+├── README.md
+├── images/                       # Screenshots or chart exports
 │   ├── overview_dashboard.png
 │   ├── tank_monitoring.png
 │   ├── delivery_performance.png
@@ -68,8 +71,9 @@ Fuel_KPI_Dashboard/
 │   └── delivery_summary_sample.csv
 └── reference/
     └── kpi_definitions.xlsx      # KPI glossary and calculation methods
+```
 
----    
+---   
 
 ## 📐 Power BI Layout & DAX Measures
 
