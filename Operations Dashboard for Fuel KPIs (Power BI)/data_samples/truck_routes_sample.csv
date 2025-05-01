@@ -1,0 +1,11 @@
+Date,Truck_ID,Driver,Start_Location,End_Location,Distance_KM,Fuel_Used_Liters,Delivery_Count,Idle_Minutes
+2025-04-01,TRK001,A. Singh,Depot A,Site X,120,30,4,12
+2025-04-02,TRK002,L. Chen,Depot B,Site Y,95,24,3,15
+2025-04-03,TRK003,R. Gomez,Depot C,Site Z,140,40,5,10
+2025-04-04,TRK001,A. Singh,Depot A,Site X,118,29,4,13
+2025-04-05,TRK002,L. Chen,Depot B,Site Y,97,25,3,14
+2025-04-06,TRK003,R. Gomez,Depot C,Site Z,135,38,5,11
+2025-04-07,TRK001,A. Singh,Depot A,Site X,122,31,4,12
+2025-04-08,TRK002,L. Chen,Depot B,Site Y,93,23,3,15
+2025-04-09,TRK003,R. Gomez,Depot C,Site Z,138,39,5,10
+2025-04-10,TRK001,A. Singh,Depot A,Site X,119,30,4,13

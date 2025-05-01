@@ -1,0 +1,11 @@
+Date,Tank_ID,Site,Fuel_Type,Volume_Filled_Liters,Operator
+2025-04-01,T001,Terminal A,Diesel,12000,John Doe
+2025-04-02,T002,Terminal B,Gasoline,15000,Jane Smith
+2025-04-03,T003,Terminal C,DEF,8000,Mike Ray
+2025-04-04,T001,Terminal A,Diesel,13000,John Doe
+2025-04-05,T002,Terminal B,Gasoline,14500,Jane Smith
+2025-04-06,T003,Terminal C,DEF,8500,Mike Ray
+2025-04-07,T001,Terminal A,Diesel,11000,John Doe
+2025-04-08,T002,Terminal B,Gasoline,14000,Jane Smith
+2025-04-09,T003,Terminal C,DEF,8200,Mike Ray
+2025-04-10,T001,Terminal A,Diesel,12500,John Doe
