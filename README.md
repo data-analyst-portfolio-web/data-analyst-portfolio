@@ -57,13 +57,13 @@ I specialize in:
 
 ### 📈 [Operations Dashboard for Fuel KPIs](https://github.com/data-analyst-portfolio-web/data-analyst-portfolio/tree/main/Operations%20Dashboard%20for%20Fuel%20KPIs%20(Power%20BI))
 
-> Visualizes fuel logistics performance using Power BI dashboards for real-time operational insights.
+> Visualizes fuel logistics performance using Power BI dashboards for real-time operational insights.       
 
-📊 Built using Power BI, SQL, and DAX with modular Python data prep
-🕒 Tracks fuel delivery efficiency, tank levels, truck idle time, and exceptions
-📍 Interactive filters for time, fuel type, terminal, and customer group
-📈 Includes custom KPIs for on-time delivery, volume trends, and truck utilization
-💡 Designed to support logistics planning and field operations decisions
+📊 Built using Power BI, SQL, and DAX with modular Python data prep       
+🕒 Tracks fuel delivery efficiency, tank levels, truck idle time, and exceptions       
+📍 Interactive filters for time, fuel type, terminal, and customer group        
+📈 Includes custom KPIs for on-time delivery, volume trends, and truck utilization         
+💡 Designed to support logistics planning and field operations decisions        
 
 ---
 
