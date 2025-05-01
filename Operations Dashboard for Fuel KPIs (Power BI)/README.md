@@ -51,6 +51,26 @@ Fuel delivery operations often suffer from inefficiencies including untracked id
 
 ---
 
+Fuel_KPI_Dashboard/
+├── README.md               
+├── images/                      
+│   ├── overview_dashboard.png
+│   ├── tank_monitoring.png
+│   ├── delivery_performance.png
+│   └── truck_efficiency.png
+├── sql/
+│   ├── extract_deliveries.sql
+│   ├── extract_tank_data.sql
+│   └── extract_dispatch_logs.sql
+├── data_samples/
+│   ├── tank_fill_logs_sample.csv
+│   ├── truck_routes_sample.csv
+│   └── delivery_summary_sample.csv
+└── reference/
+    └── kpi_definitions.xlsx      # KPI glossary and calculation methods
+
+---    
+
 ## 📐 Power BI Layout & DAX Measures
 
 This dashboard is organized across four key pages, each serving a unique aspect of fuel delivery operations.
