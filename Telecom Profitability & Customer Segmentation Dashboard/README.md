@@ -1,6 +1,6 @@
 # 📘 Telecom Profitability & Customer Segmentation Dashboard
 
-A Power BI dashboard project designed to deliver **insights into profit trends, customer value, churn indicators**, and usage segmentation across telecom services. It supports strategic decisions by transforming raw subscriber and usage data into actionable KPIs and visual narratives.
+This project delivers a Power BI dashboard that uncovers profit trends, churn risks, and customer segmentation patterns using telecom subscriber and billing data. It enables commercial and product teams to explore and act on insights that drive revenue growth and retention.
 
 ---
 
@@ -16,12 +16,13 @@ Enable telecom stakeholders to:
 
 ## 🧰 Tools & Technologies
 
-| Tool       | Purpose                                 |
-|------------|------------------------------------------|
-| Power BI   | Dashboard design and KPI visualization   |
-| SQL Server | Data transformation and modeling         |
-| DAX        | Calculated columns, measures, time logic |
-| Python (opt.) | Segmentation, churn scoring models    |
+| Tool        | Purpose                                      |
+|-------------|----------------------------------------------|
+| Power BI    | Dashboard creation and visual analytics       |
+| SQL Server  | Data extraction and preparation               |
+| DAX         | KPI measures and time intelligence            |
+| Excel/CSV   | Sample and processed datasets                 |
+| Python (opt)| Churn scoring and customer clustering         |
 
 ---
 
@@ -54,13 +55,37 @@ Enable telecom stakeholders to:
 
 ```
 Telecom_Analytics_Dashboard/
+│
 ├── data/
 │   ├── raw/
-│   ├── processed/
+│   │   ├── subscribers.csv
+│   │   ├── usage.csv
+│   │   ├── billing.csv
+│   │   └── churn_labels.csv
+│   └── processed/
+│       └── telecom_model_dataset.xlsx
+│
 ├── scripts/
+│   ├── extract_subscribers.sql
+│   ├── extract_usage.sql
+│   ├── extract_billing.sql
+│   └── churn_segmentation.py
+│
 ├── visuals/
+│   ├── profitability_dashboard.png
+│   ├── segmentation_view.png
+│   ├── churn_risk_panel.png
+│   └── forecast_chart.png
+│
 ├── report/
+│   ├── Telecom_Profitability.pbix
+│   └── Telecom_Profitability_Template.pbit
+│
 ├── docs/
+│   ├── KPI_definitions.md
+│   ├── data_model_schema.png
+│   └── report_walkthrough.md
+│
 └── README.md
 ```
 
@@ -82,6 +107,16 @@ Lifetime Value (LTV) = [ARPU] * [Average Customer Lifespan (Months)]
 
 ---
 
-## 🔐 Notes
-- Customer and account data is anonymized for demo purposes.
-- Dashboards support row-level security and date hierarchies.
+## 🔐 Data Privacy
+
+All data is anonymized for demonstration purposes and does not contain personally identifiable information (PII). Use of row-level security (RLS) is supported for real implementation.
+
+---
+
+## 👨‍💼 Author
+
+**Mohammad Zakirul Islam Khan**  
+📍 Vancouver, BC, Canada  
+📧 zakirul.islam973@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/mzik)  
+🔗 [GitHub](https://github.com/data-analyst-portfolio-web)
