@@ -1,0 +1,11 @@
+SubscriberID,Churned,ChurnReason
+S001,False,
+S002,True,Price
+S003,False,
+S004,False,
+S005,True,Network
+S006,False,
+S007,True,Support
+S008,False,
+S009,False,
+S010,True,Coverage
